@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        // Cria um objeto Scanner para ler a entrada
+        var scanner = new Scanner(System.in);
+
+        // Lê o valor do raio (dupla precisão)
+        var raio = scanner.nextDouble();
+
+        // Define o valor de π
+        var n = 3.14159;
+
+        // Calcula a área
+        var area = n * Math.pow(raio, 2);
+
+        // Exibe o resultado com 4 casas decimais
+        System.out.printf("A=%.4f\n", area);
+
+        // Fecha o scanner
+        scanner.close();
+    }
+}
