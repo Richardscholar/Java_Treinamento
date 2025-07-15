@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class Main {
+    
+    public static void main(String[] atgs){
+        
+        var scanner = new Scanner(System.in);
+        var A = scanner.nextInt();
+        var B = scanner.nextInt();
+        var SOMA = A + B;
+        
+        System.out.println("SOMA = " + SOMA);
+        
+    }
+}
